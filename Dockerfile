@@ -17,7 +17,7 @@ RUN export PATH="/root/.local/bin:$PATH" && \
     python3 /app/manage.py migrate
 
 # Make port 8000 available to the world outside this container
-EXPOSE 8000
+EXPOSE 3000
 
 # Run the command to start uWSGI
-CMD ["python3", "/app/manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python3", "/app/manage.py", "runserver", "0.0.0.0:3000"]

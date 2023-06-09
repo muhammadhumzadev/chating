@@ -106,6 +106,7 @@ user2:
                    password: mike12345
                    
                 
+Go to http://127.0.0.1:8000/chats/
 
 Start a conversation with a friends.
 

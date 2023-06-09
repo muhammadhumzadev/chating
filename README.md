@@ -7,12 +7,14 @@ This is a messaging app built using Django, which allows users to add friends an
 
 The users login and passwords
 
-user1:             username: admin
+user1:             
 
+                   username: admin
                    password: admin
                   
-user2:             username: Mike
+user2:             
 
+                   username: Mike
                    password: mike12345
 
 ## Prerequisites
@@ -93,12 +95,14 @@ If you go to the 127.0.0.1/chats/ link it will give you error Anonymous User. To
 
 Got to 127.0.0.1/admin/ and login there
 
-user1:             username: admin
+user1:             
 
+                   username: admin
                    password: admin
                   
-user2:             username: Mike
+user2:             
 
+                   username: Mike
                    password: mike12345
                    
                 

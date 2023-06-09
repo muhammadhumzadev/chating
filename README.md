@@ -3,6 +3,16 @@
 ## Introduction
 This is a messaging app built using Django, which allows users to add friends and chat with them. The app is designed to be deployed on Google Cloud Platform (GCP) using Google Cloud Build for automatic deployment.
 
+##Note: For how to use the app. Goto the Usage section
+
+The users login and passwords
+
+user1:             username: admin
+                   password: admin
+                  
+user2:             username: Mike
+                   password: mike12345
+
 ## Prerequisites
 - Python 3.x
 - Django
@@ -53,7 +63,7 @@ Start the Django development server:
 
 `pythony manage.py runserver`
 
-Access the app in your browser at http://localhost:8000.
+Access the app in your browser at http://127.0.0.1:8000/chats/.
 
 ## Deployment on Google Cloud Platform
 To deploy the app on GCP using Google Cloud Build for automatic deployment, follow these steps:
@@ -77,9 +87,19 @@ Push your code changes to the GitHub repository, and Cloud Build will automatica
 ## Usage
 Once the app is running locally or deployed on GCP, follow these steps to use the messaging app:
 
-Sign up for an account or log in if you already have one.
+If you go to the 127.0.0.1/chats/ link it will give you error Anonymous User. To resolve the issue
 
-Start a conversation with a friends by selecting on of the rooms.
+Got to 127.0.0.1/admin/ and login there
+
+user1:             username: admin
+                   password: admin
+                  
+user2:             username: Mike
+                   password: mike12345
+                   
+                
+
+Start a conversation with a friends.
 
 Type your messages in the input field at the bottom of the chat window and press Enter to send them.
 

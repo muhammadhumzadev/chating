@@ -1,0 +1,1 @@
+sudo docker run -p 3000:3000/tcp -p 3000:3000/udp -d --name=chating gcr.io/abstract-bongo-386611/github.com/muhammadhumzadev/chating@sha256:c1ae438299e03247926dc6237b94e0799e73cfc1393f664ca55bfad44f246cad
